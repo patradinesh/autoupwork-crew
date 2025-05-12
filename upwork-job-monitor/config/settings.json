@@ -1,0 +1,27 @@
+{
+  "upwork_api": {
+    "client_id": "YOUR_CLIENT_ID",
+    "client_secret": "YOUR_CLIENT_SECRET",
+    "redirect_uri": "YOUR_REDIRECT_URI",
+    "access_token": "YOUR_ACCESS_TOKEN"
+  },
+  "notification": {
+    "email": {
+      "enabled": true,
+      "smtp_server": "YOUR_SMTP_SERVER",
+      "smtp_port": 587,
+      "username": "YOUR_EMAIL_USERNAME",
+      "password": "YOUR_EMAIL_PASSWORD"
+    },
+    "sms": {
+      "enabled": false,
+      "api_key": "YOUR_SMS_API_KEY",
+      "api_secret": "YOUR_SMS_API_SECRET",
+      "from_number": "YOUR_FROM_NUMBER"
+    }
+  },
+  "job_monitor": {
+    "job_category": "DevOps",
+    "check_interval": 300
+  }
+}
